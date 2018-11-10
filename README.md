@@ -1,2 +1,4 @@
-# INS_Sandstorm
-Config setting for our sandstorm server
+# [INS] Server Sandstorm
+These are what we have for our Sandstorm server so far.<br><br>
+
+http://insurgency.pro
