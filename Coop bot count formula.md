@@ -5,4 +5,6 @@ MinimumEnemies + ((MinimumEnemies * ObjectiveTotalEnemyRespawnMultiplierMax) - (
 
 **Each checkpoint counter attack bot count**<br>
 (MaximumEnemies - MinimumEnemies) / MaxPlayers * (AlivePlayers - 1) + MinimumEnemies = TotalAmountOfBotForCounterattack<br><br>
-TotalAmountOfBotForCounterattack + (TotalAmountOfBotForCounterattack * ObjectiveTotalEnemyRespawnMultiplierMax - TotalAmountOfBotForCounterattack * CounterAttackRespawnDPR) = Total amount of bots for counter attack with max multiplier
+TotalAmountOfBotForCounterattack + (TotalAmountOfBotForCounterattack * ObjectiveTotalEnemyRespawnMultiplierMax - TotalAmountOfBotForCounterattack * CounterAttackRespawnDPR) = Total amount of bots for counter attack with max multiplier<br><br>
+
+**NOTE:** If your calculation have decimal in it, make sure to round it to a whole number
