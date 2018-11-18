@@ -1,4 +1,4 @@
-# Fomula for Coop bot count
+# Formula for Coop bot count
 **Each checkpoint bot count**<br>
 MaximumEnemies + ((MaximumEnemies * ObjectiveTotalEnemyRespawnMultiplierMax) - (MaximumEnemies * (1.0 - RespawnDPR))) = Maximum TotalBot for normal checkpoint with Max multiplier<br><br>
 MinimumEnemies + ((MinimumEnemies * ObjectiveTotalEnemyRespawnMultiplierMax) - (MinimumEnemies * (1.0 - RespawnDPR))) = Minimum TotalBot for normal checkpoint with Max multiplier<br><br><br>
