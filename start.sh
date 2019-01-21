@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Really useful for crontab
+#Everytime the server start up or restart, it will start with a random map
+
 strMapList=()
 strMapList+=("Canyon?Scenario=Scenario_Crossing_Checkpoint_Insurgents")
 strMapList+=("Canyon?Scenario=Scenario_Crossing_Checkpoint_Security")
