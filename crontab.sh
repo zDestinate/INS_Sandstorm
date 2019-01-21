@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #This is for crontab to restart the servers
-#This script will check if server is empty or not to restart it
+#This script will check if server is empty or not to restart it (By using http://insurgency.pro/api)
 #Using screen to start the server up
 #Make sure you put in the right path
 
