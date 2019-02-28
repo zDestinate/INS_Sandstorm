@@ -23,4 +23,4 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=50 -log -multihome=108.61.136.220 -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?MaxPlayers=20 -log -multihome=108.61.136.220 -Port=27102 -QueryPort=27131 -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
