@@ -5,3 +5,4 @@ NOTE: These files are for Coop server.<br><br>
 http://insurgency.pro
 
 Player statistics API: http://insurgency.pro/sandstorm/player/ 
+Server API: http://insurgency.pro/api
