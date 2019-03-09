@@ -11,7 +11,7 @@ Server API:<br>
 http://insurgency.pro/api<br><br>
 
 Server List API (To find list of servers running on the same IP):<br>
-http://insurgency.pro/api<br><br>
+http://insurgency.pro/serverlist<br><br>
 
 Player statistics API:<br>
 http://insurgency.pro/sandstorm/player/
