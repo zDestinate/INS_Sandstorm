@@ -3,6 +3,7 @@ As we all know that we can use gamemodeproperty rcon command to change the game.
 Here are a list of things for **gamemodeproperty** and you will find it surprising.<br><br>
 
 TeamInfoClass<br>
+AIDirector<br>
 ScoringAmounts<br>
 ScenarioPendingSublevels<br>
 LocalizedRules<br>
