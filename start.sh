@@ -37,4 +37,4 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -multihome=108.61.136.218 -log -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
