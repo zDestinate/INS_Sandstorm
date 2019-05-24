@@ -1,6 +1,6 @@
 # UnrealPak
 
-This UnrealPak is use to unpack the .pak files for Unreal Engine 4.22<br>
+This UnrealPak is from Unreal Engine and it uses to unpack the .pak files for Unreal Engine 4.22<br>
 <b>NOTE:</b> This is use for modding and experience unreal engine how stuff work. DO NOT ABUSE!<br><br><br>
 
 ### Usage
