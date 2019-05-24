@@ -16,6 +16,8 @@ strMapList+=("Precinct?Scenario=Scenario_Precinct_Checkpoint_Insurgents")
 strMapList+=("Precinct?Scenario=Scenario_Precinct_Checkpoint_Security")
 strMapList+=("Town?Scenario=Scenario_Hideout_Checkpoint_Insurgents")
 strMapList+=("Town?Scenario=Scenario_Hideout_Checkpoint_Security")
+strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Insurgents")
+strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
 
 #set random seed
 RANDOM=$$$(date +%N)
@@ -23,4 +25,4 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?MaxPlayers=20 -log -multihome=108.61.136.220 -Port=27102 -QueryPort=27131 -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?MaxPlayers=20 -log -Port=27102 -QueryPort=27131 -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
