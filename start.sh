@@ -26,8 +26,11 @@ strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
 #strGameMode="Skirmish"
 #strGameMode="CaptureTheBase"
 #strGameMode="TeamDeathmatch"
+#strGameMode="Filming"
+#strGameMode="Mission"
 #strGameMode="Checkpoint"
 strGameMode="CheckpointHardcore"
+#strGameMode="CheckpointTutorial"
 #strGameMode="Operations"
 #strGameMode="Outpost"
 
