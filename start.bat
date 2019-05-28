@@ -36,4 +36,4 @@ set /A nRng=%RANDOM% %%13
 setlocal enableDelayedExpansion
 set strMap=!strMapList[%nRng%]!
 
-Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?MaxSpectators=10?AIDifficulty=1.0?Game=%strGameMode% -log -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
+Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?Game=%strGameMode% -log -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
