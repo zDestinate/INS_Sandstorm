@@ -28,11 +28,19 @@ strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
 #strGameMode="TeamDeathmatch"
 #strGameMode="Filming"
 #strGameMode="Mission"
-#strGameMode="Checkpoint"
-strGameMode="CheckpointHardcore"
+strGameMode="Checkpoint"
+#strGameMode="CheckpointHardcore"
 #strGameMode="CheckpointTutorial"
 #strGameMode="Operations"
 #strGameMode="Outpost"
+
+#Ruleset (Please pick one only and comment out the rest with hashtag. Some might not work)
+#Using Ruleset will override some of your game.ini config. Expect some config not to work
+strRuleSet="CheckpointFrenzy"
+#strRuleSet="CompetitiveFirefight"
+#strRuleSet="CompetitiveTheater"
+#strRuleSet="MatchmakingCasual"
+#strRuleSet="OfficialRules"
 
 #set random seed
 RANDOM=$$$(date +%N)
@@ -40,4 +48,4 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -ruleset=$strRuleSet -EnableCheats -NoEAC -USEALLAVAILABLECORES
