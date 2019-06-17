@@ -12,3 +12,5 @@
 (Scenario="Scenario_Summit_Checkpoint_Security",Mode="CheckpointHardcore")
 (Scenario="Scenario_Outskirts_Checkpoint_Insurgents",Mode="CheckpointHardcore")
 (Scenario="Scenario_Outskirts_Checkpoint_Security",Mode="CheckpointHardcore")
+(Scenario="Scenario_Ministry_Checkpoint_Security",Mode="CheckpointHardcore")
+(Scenario="Scenario_Ministry_Checkpoint_Insurgents",Mode="CheckpointHardcore")
