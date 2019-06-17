@@ -18,6 +18,8 @@ strMapList+=("Town?Scenario=Scenario_Hideout_Checkpoint_Insurgents")
 strMapList+=("Town?Scenario=Scenario_Hideout_Checkpoint_Security")
 strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Insurgents")
 strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
+strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents")
+strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
 
 #Gamemode (Please pick one only and comment out the rest with hashtag)
 #strGameMode="Firefight"
@@ -36,11 +38,11 @@ strGameMode="Checkpoint"
 
 #Ruleset (Please pick one only and comment out the rest with hashtag. Some might not work)
 #Using Ruleset will override some of your game.ini config. Expect some config not to work
-strRuleSet="CheckpointFrenzy"
+#strRuleSet="CheckpointFrenzy"
 #strRuleSet="CompetitiveFirefight"
 #strRuleSet="CompetitiveTheater"
 #strRuleSet="MatchmakingCasual"
-#strRuleSet="OfficialRules"
+strRuleSet="OfficialRules"
 
 #set random seed
 RANDOM=$$$(date +%N)
@@ -48,4 +50,4 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -ruleset=$strRuleSet -EnableCheats -NoEAC -USEALLAVAILABLECORES
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -ruleset=$strRuleSet -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -GameStats -EnableCheats -NoEAC
