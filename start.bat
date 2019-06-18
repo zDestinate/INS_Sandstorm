@@ -46,4 +46,5 @@ set /A nRng=%RANDOM% %%15
 setlocal enableDelayedExpansion
 set strMap=!strMapList[%nRng%]!
 
+::GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
 Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?Game=%strGameMode% -log -AdminList=Admins -MapCycle=MapCycle -ruleset=%strRuleSet% -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
