@@ -50,4 +50,5 @@ RANDOM=$$$(date +%N)
 #set map
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
+#GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
 ./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -ruleset=$strRuleSet -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
