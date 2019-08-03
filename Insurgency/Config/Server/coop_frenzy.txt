@@ -1,0 +1,7 @@
+(Scenario="Scenario_Crossing_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Farmhouse_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Hideout_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Ministry_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Outskirts_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Precinct_Checkpoint_Security",Mode="CheckpointFrenzy")
+(Scenario="Scenario_Summit_Checkpoint_Security",Mode="CheckpointFrenzy")
