@@ -18,7 +18,7 @@ set strMapList[13]=Compound?Scenario=Scenario_Outskirts_Checkpoint_Security
 set strMapList[14]=Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents
 set strMapList[15]=Ministry?Scenario=Scenario_Ministry_Checkpoint_Security
 set strMapList[16]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents
-set strMapList[17]=Sinjar?Scenario=Scenario_Hillside_Checkpont_Security
+set strMapList[17]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security
 
 ::Gamemode (Please pick one only and comment out the rest with :: Some will only work with specific map)
 ::set strGameMode=Firefight
