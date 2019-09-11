@@ -21,7 +21,7 @@ strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
 strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents")
 strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
 strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents")
-strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpont_Security")
+strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security")
 
 #Gamemode (Please pick one only and comment out the rest with hashtag)
 #strGameMode="Firefight"
