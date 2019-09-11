@@ -14,5 +14,5 @@
 (Scenario="Scenario_Outskirts_Checkpoint_Security",Options="Mutators=SlowMovement")
 (Scenario="Scenario_Ministry_Checkpoint_Security",Options="Mutators=SlowMovement")
 (Scenario="Scenario_Ministry_Checkpoint_Insurgents",Options="Mutators=SlowMovement")
-(Scenario="Scenario_Hillside_Checkpont_Security",Options="Mutators=SlowMovement")
+(Scenario="Scenario_Hillside_Checkpoint_Security",Options="Mutators=SlowMovement")
 (Scenario="Scenario_Hillside_Checkpoint_Insurgents",Options="Mutators=SlowMovement")
