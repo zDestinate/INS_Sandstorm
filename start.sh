@@ -20,6 +20,8 @@ strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Insurgents")
 strMapList+=("Compound?Scenario=Scenario_Outskirts_Checkpoint_Security")
 strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents")
 strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
+strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents")
+strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpont_Security")
 
 #Gamemode (Please pick one only and comment out the rest with hashtag)
 #strGameMode="Firefight"
@@ -30,11 +32,39 @@ strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
 #strGameMode="TeamDeathmatch"
 #strGameMode="Filming"
 #strGameMode="Mission"
-strGameMode="Checkpoint"
+#strGameMode="Checkpoint"
 #strGameMode="CheckpointHardcore"
 #strGameMode="CheckpointTutorial"
 #strGameMode="Operations"
 #strGameMode="Outpost"
+
+#Mutator list
+#AllYouCanEat
+#AntiMaterielRiflesOnly
+#BoltActionsOnly
+#Broke
+#BulletSponge
+#Competitive
+#CompetitiveLoadouts
+#FastMovement
+#Frenzy
+#Guerrillas
+#Hardcore
+#HeadshotOnly
+#HotPotato
+#LockedAim
+#LowGravity
+#NoAim
+#PistolsOnly
+#ShotgunsOnly
+#SlowCaptureTimes
+#SlowMovement
+#SoldierOfFortune
+#SpecialOperations
+#Strapped
+#Ultralethal
+#Vampirism
+#Warlords
 
 #Ruleset (Please pick one only and comment out the rest with hashtag. Some might not work)
 #Using Ruleset will override some of your game.ini config. Expect some config not to work
@@ -42,7 +72,7 @@ strGameMode="Checkpoint"
 #strRuleSet="CompetitiveFirefight"
 #strRuleSet="CompetitiveTheater"
 #strRuleSet="MatchmakingCasual"
-strRuleSet="OfficialRules"
+#strRuleSet="OfficialRules"
 
 #set random seed
 RANDOM=$$$(date +%N)
@@ -51,4 +81,4 @@ RANDOM=$$$(date +%N)
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
 #GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -log -AdminList=Admins -MapCycle=MapCycle -ruleset=$strRuleSet -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?Mutator=Hardcore,FastMovement -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
