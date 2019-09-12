@@ -1,5 +1,15 @@
-config-FRIENDLY mutators
+approved & config-FRIENDLY mutators
+AntiMaterielRiflesOnly
+BoltActionsOnly
+FastMovement
+HeadshotOnly
 HotPotato
+PistolsOnly
+ShotgunsOnly
+SlowMovement
+Ultralethal
+Vampirism
 
 config-UNFRIENDLY mutators:
 Frenzy
+(sopply point mutators)
