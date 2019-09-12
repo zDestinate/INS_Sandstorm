@@ -12,4 +12,4 @@ Vampirism
 
 config-UNFRIENDLY mutators:
 Frenzy
-(sopply point mutators)
+(supply point mutators)
