@@ -1,0 +1,5 @@
+config-FRIENDLY mutators
+HotPotato
+
+config-UNFRIENDLY mutators:
+Frenzy
