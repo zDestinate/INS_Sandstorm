@@ -29,7 +29,7 @@ set strMapList[17]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security
 ::set strGameMode=TeamDeathmatch
 ::set strGameMode=Filming
 ::set strGameMode=Mission
-::set strGameMode=Checkpoint
+set strGameMode=Checkpoint
 ::set strGameMode=CheckpointHardcore
 ::set strGameMode=CheckpointTutorial
 ::set strGameMode=Operations
@@ -77,4 +77,4 @@ setlocal enableDelayedExpansion
 set strMap=!strMapList[%nRng%]!
 
 ::GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
-Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10 -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
+Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?game=%strGameMode% -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
