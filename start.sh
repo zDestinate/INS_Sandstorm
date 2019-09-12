@@ -32,7 +32,7 @@ strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security")
 #strGameMode="TeamDeathmatch"
 #strGameMode="Filming"
 #strGameMode="Mission"
-#strGameMode="Checkpoint"
+strGameMode="Checkpoint"
 #strGameMode="CheckpointHardcore"
 #strGameMode="CheckpointTutorial"
 #strGameMode="Operations"
@@ -81,4 +81,4 @@ RANDOM=$$$(date +%N)
 strMap=${strMapList[$RANDOM % ${#strMapList[@]}]}
 
 #GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
-./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20 -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
+./Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $strMap?port=27102?queryport=27131?MaxPlayers=20?game=$strGameMode -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
