@@ -1,9 +1,9 @@
 approved & config-FRIENDLY mutators
 AntiMaterielRiflesOnly
 BoltActionsOnly
+BulletSponge
 FastMovement
 HeadshotOnly
-HotPotato
 PistolsOnly
 ShotgunsOnly
 SlowMovement
