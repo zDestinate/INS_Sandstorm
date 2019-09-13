@@ -4,7 +4,6 @@ Here are a list of things for **gamemodeproperty** and you will find it surprisi
 
 TeamInfoClass<br>
 AIDirector<br>
-ScoringAmounts<br>
 ScenarioPendingSublevels<br>
 LocalizedRules<br>
 INSGameState<br>
@@ -15,8 +14,5 @@ LastWinningTeam<br>
 MultiplayerGameState<br>
 InsertionVehicleSpawners<br>
 SoloReinforcementSystem<br>
-CounterAttackDefinition<br><br>
-
-If you want server to be matchmaking to get exp and ranking then change this to true **bIsMatchServer=True**<br>
-However, for some reason, if you change your server to matchmaking server, you can't join in.<br>
-It seem like there are other settings to check for matchmaking server. Still trying to figure this out.
+CounterAttackDefinition<br>
+OptionsString<br><br>
