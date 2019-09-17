@@ -1,10 +1,10 @@
-approved & config-FRIENDLY mutators
+approved & config-FRIENDLY mutators:
 AntiMaterielRiflesOnly
 BoltActionsOnly
 BulletSponge
 FastMovement
 HeadshotOnly
-PistolsOnly
+PistolsOnly (ammo limited to 4 magazines)
 ShotgunsOnly
 SlowMovement
 Ultralethal
