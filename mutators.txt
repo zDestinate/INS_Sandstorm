@@ -8,7 +8,7 @@ ShotgunsOnly
 SlowMovement,SlowCaptureTimes
 Ultralethal
 Vampirism
-PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
+PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 (HotPotato,Vampirism)
 (HotPotato,FastMovement)
 (Frenzy,Vampirism)
