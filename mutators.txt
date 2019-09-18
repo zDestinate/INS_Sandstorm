@@ -11,6 +11,7 @@ Vampirism
 PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
 (HotPotato,Vampirism)
 (HotPotato,FastMovement)
+(Frenzy,BoltActionsOnly,Ultralethal)
 
 config-UNFRIENDLY mutators:
 Frenzy (both SoloEnemies and MinMaxEnemies not working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
