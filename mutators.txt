@@ -5,7 +5,7 @@ BulletSponge
 FastMovement
 HeadshotOnly
 ShotgunsOnly
-SlowMovement
+SlowMovement,SlowCaptureTimes
 Ultralethal
 Vampirism
 PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
