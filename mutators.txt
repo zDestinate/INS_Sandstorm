@@ -4,11 +4,11 @@ BoltActionsOnly
 BulletSponge
 FastMovement
 HeadshotOnly
-PistolsOnly (ammo limited to 4 magazines)
 ShotgunsOnly
 SlowMovement
-Ultralethal
-Vampirism
+PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
+HotPotato,Vampirism
+HotPotato,FastMovement
 
 config-UNFRIENDLY mutators:
 Frenzy
