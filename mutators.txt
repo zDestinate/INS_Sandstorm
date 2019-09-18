@@ -8,7 +8,7 @@ ShotgunsOnly
 SlowMovement
 Ultralethal
 HotPotato,Vampirism
-HotPotato,FastMovement
+(HotPotato,FastMovement)
 PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
 
 config-UNFRIENDLY mutators:
