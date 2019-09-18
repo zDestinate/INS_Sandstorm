@@ -7,9 +7,9 @@ HeadshotOnly
 ShotgunsOnly
 SlowMovement
 Ultralethal
-PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
 HotPotato,Vampirism
 HotPotato,FastMovement
+PistolOnly,Ultralethal (pistol ammo limited to 4 magazines)
 
 config-UNFRIENDLY mutators:
 Frenzy
