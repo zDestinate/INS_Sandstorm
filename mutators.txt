@@ -7,7 +7,7 @@ HeadshotOnly
 ShotgunsOnly
 SlowMovement,SlowCaptureTimes
 Ultralethal
-Vampirism
+Vampirism,Broke
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 (HotPotato,Vampirism)
 (HotPotato,FastMovement)
