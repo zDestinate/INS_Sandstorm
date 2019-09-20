@@ -9,8 +9,8 @@ SlowMovement,SlowCaptureTimes
 Ultralethal
 Vampirism?Vampirism_MaxHealth=200,Broke
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
-(HotPotato?HotPotato_bIgnoreHeadshots=1,Vampirism?Vampirism_MaxHealth=200)
-(HotPotato?HotPotato_bIgnoreHeadshots=1,FastMovement)
+(HotPotato,Vampirism?Vampirism_MaxHealth=200)
+(HotPotato,FastMovement)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500,BoltActionsOnly,Ultralethal)
 
