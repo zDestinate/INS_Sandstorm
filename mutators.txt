@@ -15,5 +15,5 @@ PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500,BoltActionsOnly,Ultralethal)
 
 config-UNFRIENDLY mutators:
-Frenzy (neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
+Frenzy (as of 1.4, neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
 (supply point mutators override game.ini)
