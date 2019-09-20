@@ -7,13 +7,13 @@ HeadshotOnly
 ShotgunsOnly
 SlowMovement,SlowCaptureTimes
 Ultralethal
-Vampirism,Broke
+Vampirism?Vampirism_MaxHealth=200,Broke
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
-(HotPotato?HotPotato_bIgnoreHeadshots=1,Vampirism)
+(HotPotato?HotPotato_bIgnoreHeadshots=1,Vampirism?Vampirism_MaxHealth=200)
 (HotPotato?HotPotato_bIgnoreHeadshots=1,FastMovement)
-(Frenzy,Vampirism)
-(Frenzy,Vampirism,BoltActionsOnly,Ultralethal)
+(Frenzy,Vampirism?Vampirism_MaxHealth=500)
+(Frenzy,Vampirism?Vampirism_MaxHealth=500,BoltActionsOnly,Ultralethal)
 
 config-UNFRIENDLY mutators:
-Frenzy (both SoloEnemies and MinMaxEnemies not working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
+Frenzy (neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
 (supply point mutators override game.ini)
