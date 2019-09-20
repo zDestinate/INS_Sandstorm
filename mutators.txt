@@ -1,4 +1,4 @@
-approved & config-FRIENDLY mutators:
+approved & config-FRIENDLY mutators: ; modified mutators NOT working with Streamline servers as of 1.4
 AntiMaterielRiflesOnly
 BoltActionsOnly
 BulletSponge
