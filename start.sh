@@ -53,7 +53,6 @@ strGameMode="Checkpoint"
 #HeadshotOnly
 #HotPotato
 #LockedAim
-#LowGravity
 #NoAim
 #PistolsOnly
 #ShotgunsOnly
