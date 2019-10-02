@@ -7,7 +7,7 @@ HeadshotOnly
 ShotgunsOnly
 SlowMovement,SlowCaptureTimes
 Ultralethal
-Vampirism?Vampirism_MaxHealth=200,Strapped
+Vampirism?Vampirism_MaxHealth=200,Guerrillas
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 (HotPotato,Vampirism?Vampirism_MaxHealth=200)
 (HotPotato,FastMovement)
