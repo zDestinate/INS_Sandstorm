@@ -1,6 +1,6 @@
 approved & config-FRIENDLY mutators (modified mutators NOT working with Streamline servers as of 1.4):
 AntiMaterielRiflesOnly
-BoltActionsOnly
+BoltActionsOnly,Vampirism?Vampirism_MaxHealth=200
 BulletSponge
 FastMovement
 HeadshotOnly
