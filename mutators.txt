@@ -1,19 +1,19 @@
-approved & config-FRIENDLY mutators (modified mutators NOT working with Streamline servers as of 1.4):
+approved & config-FRIENDLY mutators (command line mutator modifications NOT working with Streamline servers as of 1.4):
 AntiMaterielRiflesOnly
-BoltActionsOnly,Vampirism?Vampirism_MaxHealth=200
 BulletSponge
 FastMovement
 HeadshotOnly
-ShotgunsOnly
-SlowMovement,SlowCaptureTimes
-Ultralethal
-Vampirism?Vampirism_MaxHealth=200,Guerrillas
+HotPotato,Vampirism?Vampirism_MaxHealth=200
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
-(HotPotato,Vampirism?Vampirism_MaxHealth=200)
-(HotPotato,FastMovement)
+ShotgunsOnly
+SlowMovement,SlowCaptureTimes (x2)
+Vampirism?Vampirism_MaxHealth=200,Guerrillas
+(BoltActionsOnly,Vampirism?Vampirism_MaxHealth=200)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500,BoltActionsOnly,Ultralethal)
 (Frenzy,Vampirism?Vampirism_MaxHealth=5000,Strapped)
+(HotPotato,FastMovement)
+(Ultralethal)
 
 config-UNFRIENDLY mutators:
 Frenzy (as of 1.4, neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
