@@ -1,14 +1,14 @@
 approved & config-FRIENDLY mutators (command line mutator modifications NOT working with Streamline servers as of 1.4):
-AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=200
+AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
 BulletSponge
 FastMovement
 HeadshotOnly
-HotPotato,Vampirism?Vampirism_MaxHealth=200
+HotPotato,Vampirism?Vampirism_MaxHealth=300
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
-ShotgunsOnly,Vampirism?Vampirism_MaxHealth=200
+ShotgunsOnly,Vampirism?Vampirism_MaxHealth=300
 SlowMovement,SlowCaptureTimes (x2)
-Vampirism?Vampirism_MaxHealth=200,Guerrillas
-(BoltActionsOnly,Vampirism?Vampirism_MaxHealth=200)
+Vampirism?Vampirism_MaxHealth=300,Guerrillas
+(BoltActionsOnly,Vampirism?Vampirism_MaxHealth=300)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500,BoltActionsOnly,Ultralethal)
 (Frenzy,Vampirism?Vampirism_MaxHealth=5000,Strapped)
