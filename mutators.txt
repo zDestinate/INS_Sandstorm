@@ -2,8 +2,7 @@ approved & config-FRIENDLY mutators (command line mutator modifications NOT work
 AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
 BulletSponge
 Frenzy,Vampirism?Vampirism_MaxHealth=300
-Frenzy,BoltActionsOnly,Ultralethal,BulletSponge
-Frenzy,PistolsOnly,Ultralethal
+Frenzy,PistolsOnly,Ultralethal,BulletSponge
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 ShotgunsOnly,Vampirism?Vampirism_MaxHealth=300
 SlowMovement,SlowCaptureTimes
