@@ -2,8 +2,8 @@ approved & config-FRIENDLY mutators (command line mutator modifications NOT work
 AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
 BulletSponge
 Frenzy,Vampirism?Vampirism_MaxHealth=300
-Frenzy,Vampirism?Vampirism_MaxHealth=300,BoltActionsOnly,Ultralethal
-Frenzy,Vampirism?Vampirism_MaxHealth=300,PistolsOnly,Ultralethal,Guerrillas
+Frenzy,BoltActionsOnly,Ultralethal,BulletSponge
+Frenzy,PistolsOnly,Ultralethal
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 ShotgunsOnly,Vampirism?Vampirism_MaxHealth=300
 SlowMovement,SlowCaptureTimes
@@ -11,6 +11,7 @@ Vampirism?Vampirism_MaxHealth=300,Guerrillas
 (BoltActionsOnly,Vampirism?Vampirism_MaxHealth=300)
 (FastMovement)
 (Frenzy,Vampirism?Vampirism_MaxHealth=1000,Guerrillas)
+(Frenzy,Vampirism?Vampirism_MaxHealth=1000,PistolsOnly)
 (HeadshotOnly)
 (HotPotato,FastMovement)
 (HotPotato,Vampirism?Vampirism_MaxHealth=300)
@@ -18,4 +19,5 @@ Vampirism?Vampirism_MaxHealth=300,Guerrillas
 
 config-UNFRIENDLY mutators:
 Frenzy (as of 1.4, SoloEnemies, MinMaxEnemies and MaxPlayersToScaleEnemyCount not working, 8 enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix)
+(Vampirism is NOT compatible with Ultralethal)
 (supply point mutators override Game.ini)
