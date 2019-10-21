@@ -17,5 +17,5 @@ Vampirism?Vampirism_MaxHealth=200,Guerrillas
 (Ultralethal)
 
 config-UNFRIENDLY mutators:
-Frenzy (as of 1.4, neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty Rcon command every time before round starts to fix)
-(supply point mutators override game.ini)
+Frenzy (as of 1.4, neither SoloEnemies nor MinMaxEnemies working, 8 enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix)
+(supply point mutators override Game.ini)
