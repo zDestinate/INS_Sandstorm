@@ -5,7 +5,7 @@ FastMovement
 HeadshotOnly
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 ShotgunsOnly,Vampirism?Vampirism_MaxHealth=200
-SlowMovement,SlowCaptureTimes (x3)
+SlowMovement,SlowCaptureTimes
 Vampirism?Vampirism_MaxHealth=200,Guerrillas
 (BoltActionsOnly,Vampirism?Vampirism_MaxHealth=200)
 (Frenzy,Vampirism?Vampirism_MaxHealth=500)
