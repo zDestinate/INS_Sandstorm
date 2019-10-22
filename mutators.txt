@@ -1,5 +1,5 @@
 approved & config-FRIENDLY mutators (command line mutator modifications NOT working with Streamline servers as of 1.4):
-GLOBAL MUTATOR: SlowMovement (with Game.ini config)
+GLOBAL MUTATOR: SlowMovement (with SlowCaptureTimes via Game.ini config)
 AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
 BulletSponge
 Frenzy,Vampirism?Vampirism_MaxHealth=300
