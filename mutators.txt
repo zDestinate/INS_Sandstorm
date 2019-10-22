@@ -1,4 +1,5 @@
 approved & config-FRIENDLY mutators (command line mutator modifications NOT working with Streamline servers as of 1.4):
+GLOBAL MUTATOR: SlowMovement (with Game.ini config)
 AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
 BulletSponge
 Frenzy,Vampirism?Vampirism_MaxHealth=300
@@ -6,7 +7,6 @@ Frenzy,PistolsOnly,Ultralethal,BulletSponge
 Frenzy,ShotgunsOnly,Ultralethal,BulletSponge
 PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
 ShotgunsOnly,Vampirism?Vampirism_MaxHealth=300
-SlowMovement,SlowCaptureTimes
 Vampirism?Vampirism_MaxHealth=300,Guerrillas
 (BoltActionsOnly,Vampirism?Vampirism_MaxHealth=300)
 (FastMovement)
