@@ -18,6 +18,6 @@ Vampirism?Vampirism_MaxHealth=300,Guerrillas
 (Ultralethal)
 
 config-UNFRIENDLY mutators:
-Frenzy (as of 1.4, SoloEnemies, MinMaxEnemies and MaxPlayersToScaleEnemyCount not working, 8 enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix)
+Frenzy (as of 1.4, SoloEnemies, MinMaxEnemies and MaxPlayersToScaleEnemyCount not working, default number of enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix; desired enemy count: 4 per player)
 (Vampirism is NOT compatible with Ultralethal)
 (supply point mutators override Game.ini)
