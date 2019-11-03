@@ -1,23 +1,22 @@
 approved & config-FRIENDLY mutators (command line mutator modifications NOT working with Streamline servers as of 1.4):
-GLOBAL MUTATOR: SlowMovement (with SlowCaptureTimes via Game.ini config)
-AntiMaterielRiflesOnly,Vampirism?Vampirism_MaxHealth=300
-BulletSponge
-Frenzy,Vampirism?Vampirism_MaxHealth=300
-Frenzy,PistolsOnly,Ultralethal,BulletSponge
-Frenzy,ShotgunsOnly,Ultralethal,BulletSponge
-PistolsOnly,Ultralethal (pistol ammo limited to 4 magazines)
-ShotgunsOnly,Vampirism?Vampirism_MaxHealth=300
-Vampirism?Vampirism_MaxHealth=300,Guerrillas
-(BoltActionsOnly,Vampirism?Vampirism_MaxHealth=300)
+GLOBAL MUTATORS: SlowMovement (with SlowCaptureTimes via Game.ini config), Vampirism_MaxHealth=300
+(AntiMaterielRiflesOnly,Vampirism)
+(BoltActionsOnly,Vampirism)
+(BulletSponge)
 (FastMovement)
-(Frenzy,Vampirism?Vampirism_MaxHealth=1000,Guerrillas)
-(Frenzy,Vampirism?Vampirism_MaxHealth=1000,PistolsOnly)
+(Frenzy,Vampirism?Vampirism_MaxHealth=300)
+(Frenzy,PistolsOnly,Ultralethal,BulletSponge)
+(Frenzy,ShotgunsOnly,Ultralethal,BulletSponge)
+(Frenzy,Vampirism?Vampirism_MaxHealth=IED,Supply?Supply=3)
+(Vampirism,Guerrillas)
 (HeadshotOnly)
 (HotPotato,FastMovement)
-(HotPotato,Vampirism?Vampirism_MaxHealth=300)
+(HotPotato,Vampirism)
+(PistolsOnly,Ultralethal) (pistol ammo limited to 4 magazines)
+(ShotgunsOnly,Vampirism)
 (Ultralethal)
 
 config-UNFRIENDLY mutators:
-Frenzy (as of 1.4, SoloEnemies, MinMaxEnemies and MaxPlayersToScaleEnemyCount not working, default number of enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix; desired enemy count: 4 per player)
+Frenzy (as of 1.4, SoloEnemies, MinMaxEnemies and MaxPlayersToScaleEnemyCount not working, default number of enemies spawn regardless; need to use gamemodeproperty RCon command every time before round starts to fix; desired enemy count: 4 per player and varies per mode)
 (Vampirism is NOT compatible with Ultralethal)
 (supply point mutators override Game.ini)
