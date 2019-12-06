@@ -14,4 +14,6 @@ Server List API (To find list of servers running on the same IP):<br>
 http://insurgency.pro/serverlist<br><br>
 
 Player statistics API:<br>
-http://insurgency.pro/sandstorm/player/
+http://insurgency.pro/sandstorm/player/<br><br>
+Player Inventory (The item player owned in game):
+http://insurgency.pro/sandstorm/player/inventory/
