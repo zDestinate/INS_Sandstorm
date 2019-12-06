@@ -15,5 +15,5 @@ http://insurgency.pro/serverlist<br><br>
 
 Player statistics API:<br>
 http://insurgency.pro/sandstorm/player/<br>
-Player Inventory (The item player owned in game):<br>
+Player Inventory API (The item player owned in game):<br>
 http://insurgency.pro/sandstorm/player/inventory/
