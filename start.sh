@@ -23,7 +23,7 @@ strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
 strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents")
 strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security")
 
-#Gamemode (Please pick one only and comment out the rest with hashtag)
+#Gamemode (Please pick the right gamemode for the right map and comment out the rest with hashtag)
 #strGameMode="Firefight"
 #strGameMode="Frontline"
 #strGameMode="Occupy"
@@ -37,6 +37,7 @@ strGameMode="Checkpoint"
 #strGameMode="CheckpointTutorial"
 #strGameMode="Operations"
 #strGameMode="Outpost"
+#strGameMode="Domination"
 
 #Mutator list
 #AllYouCanEat

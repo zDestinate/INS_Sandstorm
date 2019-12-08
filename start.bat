@@ -20,7 +20,7 @@ set strMapList[15]=Ministry?Scenario=Scenario_Ministry_Checkpoint_Security
 set strMapList[16]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents
 set strMapList[17]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security
 
-::Gamemode (Please pick one only and comment out the rest with :: Some will only work with specific map)
+::Gamemode (Please pick the right gamemode for the right map and comment out the rest with :: Some will only work with specific map)
 ::set strGameMode=Firefight
 ::set strGameMode=Frontline
 ::set strGameMode=Occupy
@@ -34,6 +34,7 @@ set strGameMode=Checkpoint
 ::set strGameMode=CheckpointTutorial
 ::set strGameMode=Operations
 ::set strGameMode=Outpost
+::set strGameMode="Domination"
 
 ::Mutator list
 ::AllYouCanEat
