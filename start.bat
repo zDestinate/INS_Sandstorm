@@ -34,7 +34,7 @@ set strGameMode=Checkpoint
 ::set strGameMode=CheckpointTutorial
 ::set strGameMode=Operations
 ::set strGameMode=Outpost
-::set strGameMode="Domination"
+::set strGameMode=Domination
 
 ::Mutator list
 ::AllYouCanEat
