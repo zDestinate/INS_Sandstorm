@@ -1,4 +1,4 @@
-These are just a list of map. Some map have other gamemode in it.
+These are just a list of map. Some map require specific gamemode to play it.
 
 (Canyon)
 Scenario_Crossing_Checkpoint_Insurgents
