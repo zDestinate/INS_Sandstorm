@@ -1,4 +1,8 @@
 # [INS] Server Sandstorm
+
+![Github Forks](https://img.shields.io/github/forks/zWolfi/INS_Sandstorm?color=blue&style=flat-square)
+![Github Stars](https://img.shields.io/github/stars/zWolfi/INS_Sandstorm?color=yellow&style=flat-square)
+
 These are the server config of what we have for our Sandstorm server so far.<br>
 NOTE: These files are for Coop server.<br><br>
 
