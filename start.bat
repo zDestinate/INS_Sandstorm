@@ -19,6 +19,8 @@ set strMapList[14]=Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents
 set strMapList[15]=Ministry?Scenario=Scenario_Ministry_Checkpoint_Security
 set strMapList[16]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents
 set strMapList[17]=Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security
+set strMapList[18]=PowerPlant?Scenario=Scenario_PowerPlant_Checkpoint_Insurgents
+set strMapList[19]=PowerPlant?Scenario=Scenario_PowerPlant_Checkpoint_Security
 
 ::Gamemode (Please pick the right gamemode for the right map and comment out the rest with :: Some will only work with specific map)
 ::set strGameMode=Firefight
@@ -72,9 +74,9 @@ set strGameMode=Checkpoint
 ::set strRuleSet=OfficialRules
 
 ::RNG to pick random map
-set /A nRng=%RANDOM% %%17
+set /A nRng=%RANDOM% %%19
 setlocal enableDelayedExpansion
 set strMap=!strMapList[%nRng%]!
 
 ::GSLTToken from https://steamcommunity.com/dev/managegameservers with App ID 581320
-Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?game=%strGameMode% -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC
+Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe %strMap%?port=27102?queryport=27131?MaxPlayers=10?game=%strGameMode% -mutators=Hardcore,FastMovement -LogCmds="LogGameplayEvents Log" -log -AdminList=Admins -MapCycle=MapCycle -GameStats -GSLTToken=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -EnableCheats -NoEAC -Mods ModList=Mods.txt
