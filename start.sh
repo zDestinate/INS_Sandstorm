@@ -22,6 +22,8 @@ strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Insurgents")
 strMapList+=("Ministry?Scenario=Scenario_Ministry_Checkpoint_Security")
 strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Insurgents")
 strMapList+=("Sinjar?Scenario=Scenario_Hillside_Checkpoint_Security")
+strMapList+=("PowerPlant?Scenario=Scenario_PowerPlant_Checkpoint_Insurgents")
+strMapList+=("PowerPlant?Scenario=Scenario_PowerPlant_Checkpoint_Security")
 
 #Gamemode (Please pick the right gamemode for the right map and comment out the rest with hashtag)
 #strGameMode="Firefight"
