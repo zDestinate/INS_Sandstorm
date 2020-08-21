@@ -3,18 +3,19 @@
 	"Platform": "Win64",
 	"Configuration": "Development",
 	"TargetType": "Program",
+	"Architecture": "",
 	"Launch": "$(EngineDir)/Binaries/Win64/UnrealPak.exe",
 	"Version": 
 	{
 		"MajorVersion": 4,
-		"MinorVersion": 22,
+		"MinorVersion": 25,
 		"PatchVersion": 2,
-		"Changelist": 6574378,
-		"CompatibleChangelist": 5660361,
-		"IsLicenseeVersion": 0,
+		"Changelist": 113369,
+		"CompatibleChangelist": 113369,
+		"IsLicenseeVersion": 1,
 		"IsPromotedBuild": 1,
-		"BranchName": "++UE4+Release-4.22",
-		"BuildId": "5660361",
+		"BranchName": "++sandstorm+build-release-1.7.1-editor",
+		"BuildId": "113369",
 		"BuildVersion": ""
 	},
 	"BuildProducts": [
@@ -27,11 +28,59 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Compression/XboxOne/XboxOneZlib/Binaries/Win64/UnrealPak-XboxOneZlibCompressionFormat.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/XboxOne/XboxOneZlib/Binaries/Win64/UnrealPak-XboxOneZlibCompressionFormat.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCrypto.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCrypto.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCryptoTypes.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCryptoTypes.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCryptoOpenSSL.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak-PlatformCryptoOpenSSL.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Platforms/XboxOneAnvil/Plugins/Compression/XboxOneAnvilZLib/Binaries/Win64/UnrealPak-XboxOneAnvilZlibCompressionFormat.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Platforms/XboxOneAnvil/Plugins/Compression/XboxOneAnvilZLib/Binaries/Win64/UnrealPak-XboxOneAnvilZlibCompressionFormat.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-BuildSettings.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-BuildSettings.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-TraceLog.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-TraceLog.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -75,6 +124,14 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-DerivedDataCache.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-DerivedDataCache.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak-PakFileUtilities.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -87,11 +144,35 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Compression/XboxOne/XboxOneZlib/Binaries/Win64/UnrealPak.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealPak.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Platforms/XboxOneAnvil/Plugins/Compression/XboxOneAnvilZLib/Binaries/Win64/UnrealPak.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealPak.modules",
 			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/XboxOne/XboxOneZlib/XboxOneZlib.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/PlatformCrypto.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Platforms/XboxOneAnvil/Plugins/Compression/XboxOneAnvilZLib/XboxOneAnvilZlib.uplugin",
+			"Type": "UFS"
+		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
 			"Type": "NonUFS"

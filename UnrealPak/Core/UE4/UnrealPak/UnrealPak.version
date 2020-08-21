@@ -1,12 +1,12 @@
 {
 	"MajorVersion": 4,
-	"MinorVersion": 22,
+	"MinorVersion": 25,
 	"PatchVersion": 2,
-	"Changelist": 6574378,
-	"CompatibleChangelist": 5660361,
-	"IsLicenseeVersion": 0,
+	"Changelist": 113369,
+	"CompatibleChangelist": 113369,
+	"IsLicenseeVersion": 1,
 	"IsPromotedBuild": 1,
-	"BranchName": "++UE4+Release-4.22",
-	"BuildId": "5660361",
+	"BranchName": "++sandstorm+build-release-1.7.1-editor",
+	"BuildId": "113369",
 	"BuildVersion": ""
 }
